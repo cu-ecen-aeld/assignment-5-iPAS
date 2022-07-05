@@ -14,4 +14,4 @@ cd `dirname $0`
 
 echo 'Clean Evaporatedly'
 make -C buildroot distclean BR2_EXTERNAL=${EXTERNAL_REL_BUILDROOT}
-
+rm -f ${AESD_MODIFIED_DEFCONFIG}
