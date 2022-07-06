@@ -19,3 +19,6 @@ else
 	make -C buildroot xconfig BR2_EXTERNAL=${EXTERNAL_REL_BUILDROOT} BR2_DEFCONFIG=${AESD_MODIFIED_DEFCONFIG_REL_BUILDROOT}
 
 fi
+
+echo 'Please add _Dropbear_ package and set root password by yourself.'
+
